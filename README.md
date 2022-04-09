@@ -1,0 +1,2 @@
+# Exercises
+Solving exercises 
