@@ -56,12 +56,65 @@ h1,h2,h3,h4,h5,h6{
 
 /* null(ing) styles in the project */
 
-#submit{
-  width: 300px;
-  border-radius: 15px;
-  position: center;
-  ;
+#card{
+  padding: 10px 5px 5px 5px;
+  width: 260px;
+  height: 260px;
+  border: 2px solid lightgreen;
+  background-color: green;
+  border-radius: 20px;
+  box-shadow: 2px;
 }
-.container-fluid{
-  vertical-align: center;
+
+#star{
+  margin: 10px 0 0 15px;
+}
+#cardTitle{
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#cardInfo{
+  margin-left: 10px;
+  color: white;
+  opacity: 0.8;
+  font-weight: 300;
+  margin-right: 10px;
+}
+.btn{
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 20px;
+  background-color: yellow;
+}
+.btn:hover{
+  background-color: yellowgreen;
+  border-color: yellowgreen;
+}
+
+.btn:focus{
+  background-color: aqua;
+  border-color: aqua;
+}
+
+
+.btns{
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#submit{
+  margin:0px auto;
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 150px;
+  height: 30px;
+}
+#submit:hover{
+  background-color: orange;
+  border-color: lightsalmon;
 }
